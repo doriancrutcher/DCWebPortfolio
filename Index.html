@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+      <link href="CSS/bootstrap-theme.min.css" rel="stylesheet">
+      <link href="CSS/bootstrap-social-gh-pages/" rel='stylesheet' type="text/css">
+      <link href="CSS/bootstrap-social.css" rel="stylesheet" type="text/css">
+      
+      <!-- Personal CSS --> 
+<link href="CSS/web.css" type="text/css" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Slabo+27px&display=swap" rel="stylesheet">
+      
+      <!-- Fontawesome -->
+ <script src="https://kit.fontawesome.com/f658b25014.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+    .carousel-inner > .item > img {
+        width:auto;
+        height:800px;
+}
+        .btn{
+           width:100px; 
+        }
+        
+         @media screen and (max-width:1100px ){  .profilePic {
+            width:270px;
+            border-radius: 10px;
+            }}
+        
+           @media screen and (max-width:800 ){  .profilePic {
+            width:200px;
+            border-radius: 10px;
+            }}
+        
+        @media screen and (max-width:600px ){
+            .carousel-inner > .item > img{
+                height: 300px;
+            }
+            .carousel-caption h1{
+                font-size: 20px;
+            }
+            .profilePic {
+            width:150px;
+            border-radius: 10px;
+            }
+            
+        }
+    </style>
+<div class="DORcontainer">
+<div class="overlay" style="    background: linear-gradient(rgba(0, 0, 0,.1), rgba(1, 0, 0,1));
+    width:100%;
+    height:100%;
+   ">
+        <div class="menu1">
+            <div id='SiteName'></div>
+            
+            <div class="navItem"><p><a href="#">Resume</a></p></div>
+            <div class="navItem"><p><a href="#">Contact </a></p></div>
+        
+        </div>
+        <div class="TW1Image">
+            <div class="type-Box"><h1 align="center">Dorian Crutcher  The 
+              <span class="txt-type" data-wait="3000" data-words='["Developer", "Designer", "Creator"]'></span><span class="cursorAni">|</span></div>
+           
+        </div>
+        <div class="BouncingArrow">
+            <div class="arrow"><p>V</p></div>
+        </div>
+</div>
+</div>
+  
+<div class="Describe-Me">
+        <div class="pictureMe"><img class="profilePic" src="Images/FB_IMG_1579044557427.jpg"  >
+        </div>
+           <div class="MyDescription"><h1>Nice to Meet You!</h1><p>I'm Dorian Crutcher and I'm passionate about working with clients to design and develop  Mobile and Web Apps.</p></div>
+      
+    </div>
+    
+<div class="row">
+    <div class='col-sm-12 col-md-6 col-lg-6 col-xl-6 challenge'><h1>In Today's Ever-changing world of technology, it's important to be able to adapt to stay at and push to be ahead of the current wave of innovation </h1>
+    </div>
+    <div class='col-sm-12 col-md-6 col-lg-6 col-xl-6 MySolutions'>
+        <div class="challenge">
+        <h2>A <span>Systematic Approach</span></h2><br>
+        <p> is how I approach problems in programming, and product design challeges to output a clear solution for my clients </p>
+        </div>
+        <div class="challenge">
+        <h2>Pushing to know <span>More</span></h2><br>
+        <p>I constanlty seek out recources to expand my knowledge to open more doors of possiblities for my clients.</p>
+        
+        </div>
+    </div>
+    </div>
+<div class=' container'>
+
+<div class='row'>
+  <div class="col-sm-12">
+
+  <div id="Project-Slider" class='carousel slide' data-ride="carousel">
+     <!-- indicators dot nav --> 
+<ol class="carousel-indicators">
+      <li data-target="#Project-Slider" data-slide-to="0" class="active"></li>
+      <li data-target="#Project-Slider" data-slide-to="1"></li>
+      <li data-target="#Project-Slider" data-slide-to="2"></li>
+</ol>
+
+
+      <!-- wrapping for slides --> 
+
+      <div class='projectbox carousel-inner' role="listbox" width='400px' height='350px' align='center'>
+    
+      <div class="item active"><a href="PingPong.html">
+          <img class='CarPic' src='Images/Ping-Pong%20ScreenShot.png' alt="PingPong"></a>
+          <div class="carItem carousel-caption">
+              <h1>Ping Pong</h1>
+          </div>
+      </div> 
+      <div class="item"> <a href="doriancrutcher.me"> 
+          <img class='CarPic' src='Images/MechEWebsite.png' alt="Mech Portfolio" align="center"></a>
+          <div class="carItem carousel-caption" >
+              <h1>Mechancial Engineering Portfolio</h1>
+          </div>
+      </div> 
+      <div class="item">
+                <a href='snakePage.html'><img class='CarPic' src='Images/snakePicture.png' alt="snakeGame" align='center'></a>
+          <div class=" carItem carousel-caption">
+              <h1>Simple Snake Game</h1>
+    </div>
+      </div>          
+          <div class="item">
+              <a href=PIDPage.html><img overflow='none' class='CarPic' src='Images/GUIScreenshot.png' alt="nodeJSImage" align='center' ></a>
+          <div class=" carItem carousel-caption">
+              <h1>PID Controller </h1>
+    </div>
+      </div>
+
+
+      <!-- controls or next and prev buttons --> 
+                   <a class="left carousel-control" href='#Project-Slider' role="button" data-slide="prev"> 
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class='sr-only'>Previous</span></a>                  <a class="right carousel-control" href='#Project-Slider' role="button" data-slide="next"> 
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class='sr-only'>Next</span></a>
+
+
+
+
+
+ </div>
+
+  </div>
+
+</div>
+</div>
+</div>
+    
+<div class="ContactRow">
+    <div>
+    <a class="btn">
+        <span class="fab fa-linkedin"></span>
+    </a>           
+    </div>
+    <div>
+    <a class=" btn ">
+        <span  class="fab fa-facebook"></span>
+    </a>
+    </div>
+    
+    <div class='contactItem'  >
+   <p> <i class="far fa-envelope"></i> : doriankinoocrutcher@gmail.com </p>
+    </div>
+    
+    <div class='contactItem'><p><i class="fas fa-mobile-alt"></i>:951-241-9683</p></div>
+</div>
+    
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+             
+    <script src="js/bootstrap.min.js"></script>
+             <script src="JS/script.js"></script> 
+  </body>

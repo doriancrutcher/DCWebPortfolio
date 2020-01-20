@@ -1,0 +1,80 @@
+/*body rules*/
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: black;
+    
+
+
+}
+*{font-size: 100%;}
+body h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+   
+}body h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+   
+}
+
+body span {
+    font-family: 'Oswald', sans-serif;
+}
+
+body p{
+     font-family: 'Roboto', sans-serif;
+    font-size:  15px;
+}
+
+
+
+.PContainer {
+    background-image: url("../Images/PaintedCroppedLaides.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:block;
+}
+
+
+.Overlay {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,1.0));
+    height:100%;
+    width:100%;
+}
+
+.Project-Image {
+    width:80%;
+    border-radius: 10px;
+    margin:10px;
+}
+
+.ImagePos {
+    text-align: center;
+    background-color: blac;
+    width:80%;
+    margin-left:50%;
+    transform: translate(-50%);
+    margin-top:10px;
+}
+
+.description h1{
+    color:white;
+    margin-left: 10px;
+    
+}
+.description h2{
+    color:white;
+    margin-left: 10px;
+    
+}
+
+
+
+.description p{
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+    color:white;
+    
+}
